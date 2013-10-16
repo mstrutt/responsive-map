@@ -1,0 +1,26 @@
+.map-wrapper {
+  position: relative;
+  height: 0;
+  padding-top: 33.33%; }
+  .map-wrapper .map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; }
+  .map-wrapper .map-embed {
+    display: none; }
+  .map-wrapper .map-static {
+    background-position: 50% 50%;
+    background-repeat: no-repeat; }
+  @media (min-width: 640px) {
+    .map-wrapper .map-static {
+      display: none; }
+    .map-wrapper .map-embed {
+      display: block; } }
+
+/* Theme */
+.map-wrapper {
+  margin-bottom: 1em; }
